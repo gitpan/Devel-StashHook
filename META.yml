@@ -17,4 +17,5 @@ no_index:
     - t
 requires:
   Variable::Magic: 0
-version: 0.01_001
+  perl: 5.01
+version: 0.01_002

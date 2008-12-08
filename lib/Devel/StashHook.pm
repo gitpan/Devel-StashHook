@@ -1,10 +1,12 @@
 package Devel::StashHook;
 
+use 5.010000;
+
 use warnings;
 use strict;
 use Variable::Magic qw(wizard cast);
 
-our $VERSION = '0.01_001';
+our $VERSION = '0.01_002';
 my $packages;
 
 sub import {
